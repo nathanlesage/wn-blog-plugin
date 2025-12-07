@@ -94,3 +94,5 @@
 "2.2.0":
     - "Use new controller behavior default views provided by Winter v1.2.8+"
     - "Improve support with the Winter.Translate plugin"
+"2.2.1":
+    - "Re-enable footnotes, tables and attributes in Markdown for Blog posts"
