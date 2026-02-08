@@ -129,4 +129,15 @@ return [
         'group_links' => 'Links',
         'group_exceptions' => 'Ausnahmen',
     ],
+    'widgets' => [
+        'posts' => [
+            'title' => 'Blogartikel',
+            'drafts' => 'Entwürfe',
+            'no_drafts_message' => 'Keine Entwürfe vorhanden.',
+            'upcoming' => 'Nächste Artikel',
+            'no_upcoming_message' => 'Es gibt keine kommenden Artikel.',
+            'latest' => 'Neuester Artikel',
+            'no_latest_message' => 'Kein veröffentlichter Artikel.',
+        ],
+    ],
 ];

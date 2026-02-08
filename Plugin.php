@@ -163,6 +163,20 @@ class Plugin extends PluginBase
     }
 
     /**
+     * Register dashboard report widgets
+     */
+    public function registerReportWidgets()
+    {
+        return [
+            \Winter\Blog\ReportWidgets\Posts::class => [
+                'label' => 'winter.blog::lang.widgets.posts.title',
+                'context' => 'dashboard',
+                'permissions' => ['winter.blog.access_posts'],
+            ],
+        ];
+    }
+
+    /**
      * Boot method, called when the plugin is first booted.
      */
     public function boot(): void
